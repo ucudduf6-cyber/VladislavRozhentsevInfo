@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Влад Роженцев | Продюсер</title>
+    <style>
+        :root {
+            --bg-color: #0f0f0f;
+            --text-color: #e0e0e0;
+            --accent-color: #d4af37; /* Золотой */
+            --secondary-bg: #1a1a1a;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 0;
+            border-bottom: 1px solid #333;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+            color: var(--accent-color);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #888;
+            margin-top: 10px;
+        }
+
+        section {
+            padding: 40px 0;
+            border-bottom: 1px solid #333;
+        }
+
+        h2 {
+            color: var(--accent-color);
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: var(--secondary-bg);
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 3px solid var(--accent-color);
+        }
+
+        .role-title {
+            font-weight: bold;
+            color: #fff;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .company-name {
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            background: var(--secondary-bg);
+            margin-bottom: 10px;
+            padding: 10px 15px;
+            border-radius: 4px;
+        }
+
+        .social-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .btn {
+            text-decoration: none;
+            color: var(--bg-color);
+            background-color: var(--accent-color);
+            padding: 12px 24px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: opacity 0.3s;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            opacity: 0.8;
+        }
+
+        .db-link {
+            color: var(--accent-color);
+            text-decoration: none;
+            margin-right: 15px;
+            font-size: 1.1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            .grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Влад Роженцев</h1>
+        <div class="subtitle">Генеральный директор RVKino | Продюсер | Предприниматель</div>
+        
+        <div style="margin-top: 20px;">
+            <a href="https://kinopoisk.ru/name/10456780" target="_blank" class="db-link">КиноПоиск</a>
+            <a href="https://imdb.com/name/nm18357618" target="_blank" class="db-link">IMDb</a>
+        </div>
+
+        <div class="social-links">
+            <a href="https://t.me/VladRogen" target="_blank" class="btn">Telegram</a>
+            <a href="https://www.instagram.com/vladrogen" target="_blank" class="btn">Instagram</a>
+            <a href="https://www.tiktok.com/@vladrogen" target="_blank" class="btn">TikTok</a>
+            <a href="https://vk.ru/vladrogen" target="_blank" class="btn">VK</a>
+            <a href="https://max.ru/join/SuB9Jq57TPQUrpB3DcGYf05JUffnA0PGU1eFNBrGMDU" target="_blank" class="btn">MAX</a>
+        </div>
+    </header>
+
+    <section id="companies">
+        <h2>Бизнесы и Должности</h2>
+        <div class="grid">
+            <div class="card">
+                <span class="role-title">Генеральный директор</span>
+                <span class="company-name">RVKino.ru</span><br>
+                <span class="company-name">RVKino Distribution</span><br>
+                <span class="company-name">Визуалпром</span><br>
+                <span class="company-name">Переток (Продюсерский центр)</span><br>
+                <span class="company-name">Зверолок</span><br>
+                <span class="company-name">Контекст ру</span><br>
+                <span class="company-name">ВМ МЕДИА</span>
+            </div>
+            <div class="card">
+                <span class="role-title">Генеральный продюсер</span>
+                <span class="company-name">RVKino Production</span><br>
+                <span class="company-name">МКР Films</span><br>
+                <span class="company-name">Телеканал RV TV</span>
+            </div>
+            <div class="card">
+                <span class="role-title">Основатель</span>
+                <span class="company-name">ГСК (Главная Сценарная Корпорация)</span>
+            </div>
+            <div class="card">
+                <span class="role-title">Со-продюсер / Со-директор</span>
+                <span class="company-name">Шурик Студио (Со-продюсер)</span><br>
+                <span class="company-name">Агент Таисии Роженцевой</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="filmography">
+        <h2>Фильмография (Режиссер/Продюсер)</h2>
+        <ul>
+            <li>По следам счастья</li>
+            <li>Современный телефон</li>
+            <li>Грант выбора</li>
+            <li>Кража без правил</li>
+            <li>Межгалактическая черёмуха - месть Негодяева</li>
+            <li>Застрявшие во сне</li>
+            <li>Действуй</li>
+            <li>Офис</li>
+            <li>Оборегенчики</li>
+            <li>Таисья Калинина</li>
+            <li>Портал</li>
+            <li>Не мой голос</li>
+            <li>Шпион</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Опыт работы на площадках</h2>
+        <ul>
+            <li><strong>Простоквашино</strong> — Кинокомпания Сарика Андреасяна (ТНТ)</li>
+            <li><strong>Сокровища скифов</strong> — Кинокомпания IKA Films (СТС, РЕН ТВ)</li>
+            <li><strong>По законам военного времени</strong> — Кинокомпания Star Media (Первый канал)</li>
+            <li><strong>Завтрак</strong> — Киностудия Никиты Михалкова</li>
+        </ul>
+    </section>
+
+    <section id="contacts">
+        <h2>Контакты</h2>
+        <p style="text-align: center; font-size: 1.2rem;">
+            По вопросам PR и рекламы:<br>
+            <a href="https://t.me/VladRozhentsev_bot" style="color: var(--accent-color);">@VladRozhentsev_bot</a>
+        </p>
+        <div class="social-links" style="margin-top: 30px;">
+            <a href="https://t.me/rvkino" class="btn" style="background:#333; color:#fff;">@rvkino</a>
+            <a href="https://t.me/rvkino_production" class="btn" style="background:#333; color:#fff;">@rvkino_production</a>
+            <a href="https://t.me/rvkino_dist" class="btn" style="background:#333; color:#fff;">@rvkino_dist</a>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2026 Влад Роженцев. Все права защищены.
+    </footer>
+</div>
+
+</body>
+</html>
