@@ -1,162 +1,401 @@
+
+```html
+<!DOCTYPE html>
+<html lang="ru
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <meta charset="">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Влад Роженцев | Продюсер</title>
+    <meta name="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scaleviewport" content="width=device-width, initial-scale=1.0">
+    <title>=1.0">
+    <title>Влад Роженцев | Продюсер</Влад Роженцев | Продюсер</title>
+    <style>
+        :title>
     <style>
         :root {
+            --bg-color: #0root {
             --bg-color: #0f0f0f;
-            --text-color: #e0e0e0;
-            --accent-color: #d4af37; /* Золотой */
+            --textf0f0f;
+            --text-color: #e0e0e0;-color: #e0e0e0;
+            --accent-color: #d4af
+            --accent-color: #d4af37; /* Золотой */37; /* Золотой */
+            --secondary-bg: #1a
             --secondary-bg: #1a1a1a;
+            --link-color1a1a;
+            --link-color: #4da6ff;
+        }
+
+: #4da6ff;
         }
 
         body {
+            font-family: 'Helvetica        body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
+            background Neue', Arial, sans-serif;
             background-color: var(--bg-color);
+            color-color: var(--bg-color);
             color: var(--text-color);
+            margin:: var(--text-color);
             margin: 0;
+            padding: 0; 0;
             padding: 0;
+            line-height: 1.6;
             line-height: 1.6;
         }
 
         .container {
+           
+        }
+
+        .container {
             max-width: 900px;
+ max-width: 900px;
             margin: 0 auto;
+            padding            margin: 0 auto;
             padding: 20px;
         }
 
+: 20px;
+        }
+
         header {
+            text-align: center;        header {
             text-align: center;
+            padding: 60px 0
             padding: 60px 0;
+            border-bottom: 1px solid;
             border-bottom: 1px solid #333;
         }
 
+        #333;
+        }
+
         h1 {
+            font-size: 3 h1 {
             font-size: 3rem;
             margin: 0;
+rem;
+            margin: 0;
             color: var(--accent-color);
+                       color: var(--accent-color);
             text-transform: uppercase;
+            letter-spacing: text-transform: uppercase;
             letter-spacing: 2px;
         }
 
+        . 2px;
+        }
+
         .subtitle {
+            font-size: 1.subtitle {
             font-size: 1.2rem;
+            color: #82rem;
             color: #888;
+            margin-top: 1088;
             margin-top: 10px;
         }
 
         section {
+            padding:px;
+        }
+
+        section {
             padding: 40px 0;
-            border-bottom: 1px solid #333;
+            border 40px 0;
+            border-bottom: 1px solid #333-bottom: 1px solid #333;
+        }
+
+        h2 {
+;
         }
 
         h2 {
             color: var(--accent-color);
+                       color: var(--accent-color);
             font-size: 1.8rem;
+ font-size: 1.8rem;
+            margin-bottom: 20px;
             margin-bottom: 20px;
             text-transform: uppercase;
         }
 
+            text-transform: uppercase;
+        }
+
         .grid {
+            display: grid;        .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit,
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1 minmax(250px, 1fr));
+            gap: 20pxfr));
             gap: 20px;
         }
 
         .card {
+;
+        }
+
+        .card {
+            background-color: var(--secondary-bg);
             background-color: var(--secondary-bg);
             padding: 20px;
+                       padding: 20px;
             border-radius: 8px;
-            border-left: 3px solid var(--accent-color);
+            border border-radius: 8px;
+            border-left: 3px solid var(--accent-color-left: 3px solid var(--accent-color);
+        }
+
+        .role-title {);
         }
 
         .role-title {
             font-weight: bold;
+            color
+            font-weight: bold;
             color: #fff;
+            display: block;: #fff;
             display: block;
+            margin-bottom: 5px;
+
             margin-bottom: 5px;
         }
 
         .company-name {
+                   }
+
+        .company-name {
             color: #aaa;
+            font-size: color: #aaa;
             font-size: 0.9rem;
+            display: block;
+ 0.9rem;
+            display: block;
+            margin-bottom: 5px;
+        }            margin-bottom: 5px;
+        }
+        
+        .company-link {
+            color
+        
+        .company-link {
+            color: var(--link-color);
+            text-decoration: var(--link-color);
+            text-decoration: none;
+            font-size: 0: none;
+            font-size: 0.9rem;
+            display: inline-block.9rem;
+            display: inline-block;
+            margin-top: 5px;
+        };
+            margin-top: 5px;
+        }
+        
+        .company-link:hover {
+           
+        
+        .company-link:hover {
+            text-decoration: underline;
+        }
+
+        text-decoration: underline;
         }
 
         ul {
             list-style: none;
+ ul {
+            list-style: none;
+            padding: 0;
+        }
+
             padding: 0;
         }
 
         li {
+            background: var(--secondary-bg);        li {
             background: var(--secondary-bg);
             margin-bottom: 10px;
+            margin-bottom: 10px;
+            padding: 10px 1
             padding: 10px 15px;
+            border-radius: 45px;
             border-radius: 4px;
+            display: flex;
+           px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+       ;
+            flex-wrap: wrap;
+        }
+
+        .film-title {
+            }
+
+        .film-title {
+            font-weight: bold;
+        }
+
+        font-weight: bold;
         }
 
         .social-links {
             display: flex;
+            .social-links {
+            display: flex;
             flex-wrap: wrap;
+            gap:  flex-wrap: wrap;
             gap: 15px;
+            justify-content: center15px;
             justify-content: center;
+            margin-top: 20px;
             margin-top: 20px;
         }
 
         .btn {
+;
+        }
+
+        .btn {
             text-decoration: none;
+            color:            text-decoration: none;
             color: var(--bg-color);
+            background-color: var(--bg-color);
             background-color: var(--accent-color);
+            padding:  var(--accent-color);
             padding: 12px 24px;
+           12px 24px;
             border-radius: 5px;
+            font border-radius: 5px;
             font-weight: bold;
+            transition: opacity -weight: bold;
             transition: opacity 0.3s;
+            display: inline0.3s;
             display: inline-block;
+            text-align: center;-block;
+            text-align: center;
+        }
+
+        .btn:hover {
+
         }
 
         .btn:hover {
             opacity: 0.8;
+                   opacity: 0.8;
+        }
+        
+        .btn-small {
+            padding }
+        
+        .btn-small {
+            padding: 6px 12px;
+            font-size: 6px 12px;
+            font-size: 0.85rem;
+            background: 0.85rem;
+            background-color: #333;
+           -color: #333;
+            color: #fff;
+        }
+        
+ color: #fff;
+        }
+        
+        .btn-small:hover {
+            background-color        .btn-small:hover {
+            background-color: #444;
+            color: #fff;: #444;
+            color: #fff;
+            opacity: 1;
+        }
+            opacity: 1;
         }
 
         .db-link {
+            color
+
+        .db-link {
             color: var(--accent-color);
+            text-decoration: var(--accent-color);
             text-decoration: none;
+            margin-right: 1: none;
             margin-right: 15px;
+            font-size: 15px;
             font-size: 1.1rem;
+        }
+
+        footer.1rem;
         }
 
         footer {
             text-align: center;
+            {
+            text-align: center;
             padding: 40px 0;
+ padding: 40px 0;
             color: #666;
+                       color: #666;
             font-size: 0.9rem;
+ font-size: 0.9rem;
         }
 
+        @media (max-width:        }
+
         @media (max-width: 600px) {
-            h1 { font-size: 2rem; }
+            h 600px) {
+            h1 { font-size: 2rem; }1 { font-size: 2rem; }
+            .grid { grid-template-columns: 1fr;
             .grid { grid-template-columns: 1fr; }
+            li { flex-direction: column; }
+            li { flex-direction: column; align-items: flex-start; }
+            align-items: flex-start; }
+            .film-link-btn { margin-top:  .film-link-btn { margin-top: 8px; }
+        }
+    </style8px; }
         }
     </style>
 </head>
 <body>
 
+<div>
+</head>
+<body>
+
 <div class="container">
     <header>
-        <h1>Влад Роженцев</h1>
-        <div class="subtitle">Генеральный директор RVKino | Продюсер | Предприниматель</div>
+ class="container">
+    <header>
+        <h1>Влад Роженцев        <h1>Влад Роженцев</h1>
+        <div class="</h1>
+        <div class="subtitle">Генеральный директор RVKinosubtitle">Генеральный директор RVKino | Продюсер | Предприниматель | Продюсер | Предприниматель</div>
+        
+        <div style</div>
         
         <div style="margin-top: 20px;">
-            <a href="https://kinopoisk.ru/name/10456780" target="_blank" class="db-link">КиноПоиск</a>
-            <a href="https://imdb.com/name/nm18357618" target="_blank" class="db-link">IMDb</a>
+="margin-top: 20px;">
+            <a href="https://kinopoisk            <a href="https://kinopoisk.ru/name/1045678.ru/name/10456780" target="_blank" class="db-link0" target="_blank" class="db-link">КиноПоиск</a>
+           ">КиноПоиск</a>
+            <a href="https://imdb.com/name <a href="https://imdb.com/name/nm18357618/nm18357618" target="_blank" class="db-link">" target="_blank" class="db-link">IMDb</a>
+        </div>IMDb</a>
         </div>
 
         <div class="social-links">
-            <a href="https://t.me/VladRogen" target="_blank" class="btn">Telegram</a>
-            <a href="https://www.instagram.com/vladrogen" target="_blank" class="btn">Instagram</a>
-            <a href="https://www.tiktok.com/@vladrogen" target="_blank" class="btn">TikTok</a>
-            <a href="https://vk.ru/vladrogen" target="_blank" class="btn">VK</a>
-            <a href="https://max.ru/join/SuB9Jq57TPQUrpB3DcGYf05JUffnA0PGU1eFNBrGMDU" target="_blank" class="btn">MAX</a>
+
+
+        <div class="social-links">
+            <a href="https://t.me/V            <a href="https://t.me/VladRogen" target="_blank" class="ladRogen" target="_blank" class="btn">Telegram Личный</a>
+           btn">Telegram Личный</a>
+            <a href="https://www.instagram.com/v <a href="https://www.instagram.com/vladrogen" target="_blank" class="btnladrogen" target="_blank" class="btn">Instagram</a>
+            <a href="https://">Instagram</a>
+            <a href="https://www.tiktok.com/@vladrogen"www.tiktok.com/@vladrogen" target="_blank" class="btn">Tik target="_blank" class="btn">TikTok</a>
+            <a href="Tok</a>
+            <a href="https://vk.ru/vladrogen" target="_https://vk.ru/vladrogen" target="_blank" class="btn">VK</a>blank" class="btn">VK</a>
+            <a href="https://max.ru
+            <a href="https://max.ru/join/SuB9Jq57/join/SuB9Jq57TPQUrpB3DcGYf0TPQUrpB3DcGYf05JUffnA0PGU1e5JUffnA0PGU1eFNBrGMDU" target="_blank" class="btn">MAX</a>
         </div>
     </header>
 
@@ -165,78 +404,180 @@
         <div class="grid">
             <div class="card">
                 <span class="role-title">Генеральный директор</span>
-                <span class="company-name">RVKino.ru</span><br>
-                <span class="company-name">RVKino Distribution</span><br>
-                <span class="company-name">Визуалпром</span><br>
-                <span class="company-name">Переток (Продюсерский центр)</span><br>
-                <span class="company-name">Зверолок</span><br>
-                <span class="company-name">Контекст ру</span><br>
-                <span class="company-name">ВМ МЕДИА</span>
+                <span class="companyFNBrGMDU" target="_blank" class="btn">MAX</a>
+        </div>
+    </header>
+
+    <section id="companies">
+        <h2>Бизнесы и Должности</h2>
+        <div class="grid">
+            <div class="card">
+                <span class="role-title">Генеральный директор</span>
+                <span class="company-name">RVKino.ru <a href="https://t-name">RVKino.ru <a href="https://t.me/RvKino" target="_blank".me/RvKino" target="_blank" class="company-link">@RvKino</a class="company-link">@RvKino</a></span>
+                <span class="company></span>
+                <span class="company-name">RVKino Distribution <a href="-name">RVKino Distribution <a href="https://t.me/rvkino_dist" targethttps://t.me/rvkino_dist" target="_blank" class="company-link">@rv="_blank" class="company-link">@rvkino_dist</a></span>
+               kino_dist</a></span>
+                <span class="company-name">Визу <span class="company-name">Визуалпром</span>
+                <span classалпром</span>
+                <span class="company-name">Переток <a href="https://="company-name">Переток <a href="https://t.me/Peretokk" target="_t.me/Peretokk" target="_blank" class="company-link">@Peretokblank" class="company-link">@Peretokk</a></span>
+                <spank</a></span>
+                <span class="company-name">Зверолок</ class="company-name">Зверолок</span>
+                <span class="company-namespan>
+                <span class="company-name">Контекст ру <a href="https">Контекст ру <a href="https://t.me/contextdaily_ru" target="_blank://t.me/contextdaily_ru" target="_blank" class="company-link">@contextdaily_ru</" class="company-link">@contextdaily_ru</a></span>
+                <span class="a></span>
+                <span class="company-name">ВМ МЕДИА <acompany-name">ВМ МЕДИА <a href="https://t.me/produktBM href="https://t.me/produktBM" target="_blank" class="company-link">@" target="_blank" class="company-link">@produktBM</a></span>
+           produktBM</a></span>
+            </div>
+            <div class="card </div>
+            <div class="card">
+                <span class="role-title">">
+                <span class="role-title">Генеральный продюсер</span>Генеральный продюсер</span>
+                <span class="company-name">RV
+                <span class="company-name">RVKino Production <a href="https://tKino Production <a href="https://t.me/rvkino_production" target="_blank".me/rvkino_production" target="_blank" class="company-link">@rvkino_production</ class="company-link">@rvkino_production</a></span>
+                <span class="companya></span>
+                <span class="company-name">МКР Films <a href="https://t.me-name">МКР Films <a href="https://t.me/Mkr_films" target="_blank" class="company-link/Mkr_films" target="_blank" class="company-link">@Mkr_films</a></span>">@Mkr_films</a></span>
+                <span class="company-name">Т
+                <span class="company-name">Телеканал RV TV <a href="https://елеканал RV TV <a href="https://t.me/+uLlaOVu05t.me/+uLlaOVu055o0Nzli" target="_blank5o0Nzli" target="_blank" class="company-link">Эфиры</a></" class="company-link">Эфиры</a></span>
+            </div>
+            <span>
             </div>
             <div class="card">
-                <span class="role-title">Генеральный продюсер</span>
-                <span class="company-name">RVKino Production</span><br>
-                <span class="company-name">МКР Films</span><br>
-                <span class="company-name">Телеканал RV TV</span>
-            </div>
-            <div class="card">
+                <span classdiv class="card">
                 <span class="role-title">Основатель</span>
-                <span class="company-name">ГСК (Главная Сценарная Корпорация)</span>
+="role-title">Основатель</span>
+                <span class="company-name">ГСК                <span class="company-name">ГСК <a href="https://t.me/GSK <a href="https://t.me/GSKfilm" target="_blank" class="company-linkfilm" target="_blank" class="company-link">@GSKfilm</a></span>">@GSKfilm</a></span>
+            </div>
+            <div class
             </div>
             <div class="card">
-                <span class="role-title">Со-продюсер / Со-директор</span>
-                <span class="company-name">Шурик Студио (Со-продюсер)</span><br>
-                <span class="company-name">Агент Таисии Роженцевой</span>
+                <span class="role="card">
+                <span class="role-title">Продюсер / Агент</span>
+               -title">Продюсер / Агент</span>
+                <span class="company-name">Шурик Студио <span class="company-name">Шурик Студио (Со-продюсер)</span> (Со-продюсер)</span>
+                <span class="company-name">Та
+                <span class="company-name">Таисия Роженцева <a href="https://tисия Роженцева <a href="https://t.me/TasiaRozhentseva" target.me/TasiaRozhentseva" target="_blank" class="company-link">@Tasia="_blank" class="company-link">@TasiaRozhentseva</a></span>Rozhentseva</a></span>
             </div>
         </div>
+            </div>
+        </div>
+    </section>
+
+    <section id
     </section>
 
     <section id="filmography">
-        <h2>Фильмография (Режиссер/Продюсер)</h2>
+        <h2>="filmography">
+        <h2>Фильмография (Режиссер/Фильмография (Режиссер/Продюсер)</h2>
+       Продюсер)</h2>
         <ul>
-            <li>По следам счастья</li>
-            <li>Современный телефон</li>
-            <li>Грант выбора</li>
-            <li>Кража без правил</li>
-            <li>Межгалактическая черёмуха - месть Негодяева</li>
-            <li>Застрявшие во сне</li>
-            <li>Действуй</li>
-            <li>Офис</li>
-            <li>Оборегенчики</li>
-            <li>Таисья Калинина</li>
-            <li>Портал</li>
-            <li>Не мой голос</li>
-            <li>Шпион</li>
+            <li>
+                <ul>
+            <li>
+                <span class="film-title">По следам <span class="film-title">По следам счастья</span>
+                <a href=" счастья</span>
+                <a href="https://www.kinopoisk.ru/film/14https://www.kinopoisk.ru/film/14235554/" target="_blank235554/" target="_blank" class="btn btn-small film-link-btn" class="btn btn-small film-link-btn">КиноПоиск</a>
+           ">КиноПоиск</a>
+            </li>
+            <li>
+                </li>
+            <li>
+                <span class="film-title">Кража без <span class="film-title">Кража без правил</span>
+                <a href=" правил</span>
+                <a href="https://www.kinopoisk.ru/filmhttps://www.kinopoisk.ru/film/14420431/"/14420431/" target="_blank" class="btn btn-small film target="_blank" class="btn btn-small film-link-btn">КиноПоиск</a>-link-btn">КиноПоиск</a>
+            </li>
+            <li>
+            </li>
+            <li>
+                <span class="film-title">Та
+                <span class="film-title">Таисья Калинина</span>
+                <исья Калинина</span>
+                <a href="https://www.kinopoiska href="https://www.kinopoisk.ru/film/142355.ru/film/14235553/" target="_blank" class="btn53/" target="_blank" class="btn btn-small film-link-btn">КиноПоиск</a>
+            </li>
+            btn-small film-link-btn">КиноПоиск</a>
+            </li>
+            <li><span class="film-title">Современный <li><span class="film-title">Современный телефон</span></li>
+            < телефон</span></li>
+            <li><span class="film-title">Грант выбора</li><span class="film-title">Грант выбора</span></li>
+            <li><spanspan></li>
+            <li><span class="film-title">Межгалакти class="film-title">Межгалактическая черёмуха - месть Негоческая черёмуха - месть Негодяева</span></li>
+            <дяева</span></li>
+            <li><span class="film-title">Застряli><span class="film-title">Застрявшие во сне</span></li>
+           вшие во сне</span></li>
+            <li><span class="film-title">Д <li><span class="film-title">Действуй</span></li>
+           ействуй</span></li>
+            <li><span class="film-title"> <li><span class="film-title">Офис</span></li>
+           Офис</span></li>
+            <li><span class="film-title">Об <li><span class="film-title">Оборегенчики</span></li>
+орегенчики</span></li>
+            <li><span class="film-title">            <li><span class="film-title">Портал</span></li>
+           Портал</span></li>
+            <li><span class="film-title">Не <li><span class="film-title">Не мой голос</span></li>
+            < мой голос</span></li>
+            <li><span class="film-title">Шпиli><span class="film-title">Шпион</span></li>
+        </ulон</span></li>
         </ul>
+    </section>
+
+    <section>
     </section>
 
     <section id="experience">
-        <h2>Опыт работы на площадках</h2>
+        <h2> id="experience">
+        <h2>Опыт работы на площадках</h2>Опыт работы на площадках</h2>
         <ul>
-            <li><strong>Простоквашино</strong> — Кинокомпания Сарика Андреасяна (ТНТ)</li>
-            <li><strong>Сокровища скифов</strong> — Кинокомпания IKA Films (СТС, РЕН ТВ)</li>
-            <li><strong>По законам военного времени</strong> — Кинокомпания Star Media (Первый канал)</li>
-            <li><strong>Завтрак</strong> — Киностудия Никиты Михалкова</li>
+            <li><
+        <ul>
+            <li><strong>Простоквашино</strong> —strong>Простоквашино</strong> — Кинокомпания Сарика Андреасяна Кинокомпания Сарика Андреасяна (ТНТ)</li>
+            < (ТНТ)</li>
+            <li><strong>Сокровища скиli><strong>Сокровища скифов</strong> — Кинокомпания Iфов</strong> — Кинокомпания IKA Films (СТС, РЕН ТВ)</KA Films (СТС, РЕН ТВ)</li>
+            <li><strong>По законам военногоli>
+            <li><strong>По законам военного времени</strong> — Кинокомпания Star времени</strong> — Кинокомпания Star Media (Первый канал)</li>
+            Media (Первый канал)</li>
+            <li><strong>Завтрак</ <li><strong>Завтрак</strong> — Киностудия Никиты Михалstrong> — Киностудия Никиты Михалкова</li>
+        </ul>
+кова</li>
         </ul>
     </section>
 
+    <section id="    </section>
+
     <section id="contacts">
+        <h2>Контактыcontacts">
         <h2>Контакты</h2>
-        <p style="text-align: center; font-size: 1.2rem;">
+        <p style="</h2>
+        <p style="text-align: center; font-size: 1text-align: center; font-size: 1.2rem;">
+            По вопросам PR и.2rem;">
             По вопросам PR и рекламы:<br>
-            <a href="https://t.me/VladRozhentsev_bot" style="color: var(--accent-color);">@VladRozhentsev_bot</a>
+            <a href рекламы:<br>
+            <a href="https://t.me/VladRozhent="https://t.me/VladRozhentsev_bot" style="color: var(--sev_bot" style="color: var(--accent-color);">@VladRozhentsevaccent-color);">@VladRozhentsev_bot</a>
         </p>
-        <div class="social-links" style="margin-top: 30px;">
-            <a href="https://t.me/rvkino" class="btn" style="background:#333; color:#fff;">@rvkino</a>
-            <a href="https://t.me/rvkino_production" class="btn" style="background:#333; color:#fff;">@rvkino_production</a>
-            <a href="https://t.me/rvkino_dist" class="btn" style="background:#333; color:#fff;">@rvkino_dist</a>
+_bot</a>
+        </p>
+        <div class="social-links" style="        <div class="social-links" style="margin-top: 30px;">
+           margin-top: 30px;">
+            <a href="https://t.me/rvk <a href="https://t.me/rvkino" class="btn btn-small">@rvkino</aino" class="btn btn-small">@rvkino</a>
+            <a href="https://t>
+            <a href="https://t.me/rvkino_production" class="btn btn.me/rvkino_production" class="btn btn-small">@rvkino_production</a>
+-small">@rvkino_production</a>
+            <a href="https://t.me/r            <a href="https://t.me/rvkino_dist" class="btn btn-small">@vkino_dist" class="btn btn-small">@rvkino_dist</a>
+        </rvkino_dist</a>
         </div>
     </section>
 
+    <div>
+    </section>
+
     <footer>
-        &copy; 2026 Влад Роженцев. Все права защищены.
+        &copy; 20footer>
+        &copy; 2026 Влад Роженцев. Все права защищены26 Влад Роженцев. Все права защищены.
+    </footer>
+</div>
+
+</.
     </footer>
 </div>
 
 </body>
+</html>
+```body>
 </html>
