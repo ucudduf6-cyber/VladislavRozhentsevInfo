@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Влад Роженцев | Продюсер</title>
     <style>
-        /* Основные стили */
         :root {
             --bg-color: #0f0f0f;
             --text-color: #e0e0e0;
-            --accent-color: #d4af37; /* Золотой */
+            --accent-color: #d4af37;
             --secondary-bg: #1a1a1a;
             --link-color: #4da6ff;
         }
@@ -29,10 +28,9 @@
             padding: 20px;
         }
 
-        /* Шапка */
         header {
             text-align: center;
-            padding: 60px 0;
+            padding: 40px 0 20px 0;
             border-bottom: 1px solid #333;
         }
 
@@ -50,7 +48,35 @@
             margin-top: 10px;
         }
 
-        /* Ссылки на базы данных */
+        /* Блок с фотографиями */
+        .photo-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .photo-frame {
+            width: 150px;
+            height: 150px;
+            background-color: #333;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 2px solid var(--accent-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+        }
+
+        .photo-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
         .db-links {
             margin-top: 20px;
             margin-bottom: 30px;
@@ -64,11 +90,6 @@
             font-weight: bold;
         }
 
-        .db-link:hover {
-            text-decoration: underline;
-        }
-
-        /* Кнопки соцсетей */
         .social-links {
             display: flex;
             flex-wrap: wrap;
@@ -94,7 +115,6 @@
             color: var(--bg-color);
         }
 
-        /* Секции */
         section {
             padding: 40px 0;
             border-bottom: 1px solid #333;
@@ -109,7 +129,6 @@
             padding-left: 15px;
         }
 
-        /* Сетка для компаний */
         .grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -156,7 +175,6 @@
             text-decoration: underline;
         }
 
-        /* Список фильмов */
         ul.film-list {
             list-style: none;
             padding: 0;
@@ -199,7 +217,6 @@
             color: #000;
         }
 
-        /* Футер */
         footer {
             text-align: center;
             padding: 40px 0;
@@ -207,24 +224,35 @@
             font-size: 0.9rem;
         }
 
-        /* Адаптив */
         @media (max-width: 600px) {
             h1 { font-size: 2rem; }
             .grid { grid-template-columns: 1fr; }
             li.film-item { flex-direction: column; align-items: flex-start; }
             .kp-btn { margin-top: 10px; align-self: flex-start; }
             .db-link { display: block; margin: 10px 0; }
+            .photo-frame { width: 120px; height: 120px; }
         }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <!-- ЗАГОЛОВОК -->
     <header>
         <h1>Влад Роженцев</h1>
         <div class="subtitle">Генеральный директор RVKino | Продюсер | Предприниматель</div>
         
+        <!-- БЛОК С ФОТОГРАФИЯМИ -->
+        <div class="photo-gallery">
+            <!-- Фото 1 -->
+            <div class="photo-frame">
+                <img src="https://vk.ru/photo-226054777_456239282" alt="Влад Роженцев 1">
+            </div>
+            <!-- Фото 2 -->
+            <div class="photo-frame">
+                <img src="https://vk.ru/photo-226054777_456239408" alt="Влад Роженцев 2">
+            </div>
+        </div>
+
         <div class="db-links">
             <a href="https://kinopoisk.ru/name/10456780" target="_blank" class="db-link">КиноПоиск</a>
             <a href="https://imdb.com/name/nm18357618" target="_blank" class="db-link">IMDb</a>
@@ -239,23 +267,19 @@
         </div>
     </header>
 
-    <!-- КОМПАНИИ -->
     <section id="companies">
         <h2>Бизнесы и Должности</h2>
         <div class="grid">
-            <!-- Карточка 1 -->
             <div class="card">
                 <span class="role-title">Генеральный директор</span>
                 <span class="company-item">RVKino.ru <a href="https://t.me/RvKino" target="_blank" class="company-link">@RvKino</a></span>
                 <span class="company-item">RVKino Distribution <a href="https://t.me/rvkino_dist" target="_blank" class="company-link">@rvkino_dist</a></span>
-                <span class="company-item">Визуалпром</span>
+                <span class="company-item">Визуалпром <a href="https://t.me/VZPROM" target="_blank" class="company-link">@VZPROM</a></span>
                 <span class="company-item">Переток <a href="https://t.me/Peretokk" target="_blank" class="company-link">@Peretokk</a></span>
-                <span class="company-item">Зверолок</span>
                 <span class="company-item">Контекст ру <a href="https://t.me/contextdaily_ru" target="_blank" class="company-link">@contextdaily_ru</a></span>
                 <span class="company-item">ВМ МЕДИА <a href="https://t.me/produktBM" target="_blank" class="company-link">@produktBM</a></span>
             </div>
             
-            <!-- Карточка 2 -->
             <div class="card">
                 <span class="role-title">Генеральный продюсер</span>
                 <span class="company-item">RVKino Production <a href="https://t.me/rvkino_production" target="_blank" class="company-link">@rvkino_production</a></span>
@@ -263,13 +287,11 @@
                 <span class="company-item">Телеканал RV TV <a href="https://t.me/+uLlaOVu055o0Nzli" target="_blank" class="company-link">Эфиры</a></span>
             </div>
 
-            <!-- Карточка 3 -->
             <div class="card">
                 <span class="role-title">Основатель</span>
                 <span class="company-item">ГСК (Главная Сценарная Корпорация) <a href="https://t.me/GSKfilm" target="_blank" class="company-link">@GSKfilm</a></span>
             </div>
 
-            <!-- Карточка 4 -->
             <div class="card">
                 <span class="role-title">Продюсер / Агент</span>
                 <span class="company-item">Шурик Студио (Со-продюсер)</span>
@@ -278,7 +300,6 @@
         </div>
     </section>
 
-    <!-- ФИЛЬМОГРАФИЯ -->
     <section id="filmography">
         <h2>Фильмография (Режиссер/Продюсер)</h2>
         <ul class="film-list">
@@ -294,8 +315,10 @@
                 <span class="film-title">Таисья Калинина</span>
                 <a href="https://www.kinopoisk.ru/film/14235553/" target="_blank" class="kp-btn">КиноПоиск</a>
             </li>
+            <li class="film-item">
+                <span class="film-title">Грань выбора</span>
+            </li>
             <li class="film-item"><span class="film-title">Современный телефон</span></li>
-            <li class="film-item"><span class="film-title">Грант выбора</span></li>
             <li class="film-item"><span class="film-title">Межгалактическая черёмуха - месть Негодяева</span></li>
             <li class="film-item"><span class="film-title">Застрявшие во сне</span></li>
             <li class="film-item"><span class="film-title">Действуй</span></li>
@@ -307,7 +330,6 @@
         </ul>
     </section>
 
-    <!-- ОПЫТ -->
     <section id="experience">
         <h2>Опыт работы на площадках</h2>
         <ul class="film-list">
@@ -318,7 +340,6 @@
         </ul>
     </section>
 
-    <!-- КОНТАКТЫ -->
     <section id="contacts">
         <h2>Контакты</h2>
         <p style="text-align: center; font-size: 1.2rem; margin-bottom: 30px;">
